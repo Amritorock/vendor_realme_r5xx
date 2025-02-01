@@ -241,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/realme/r5x/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     vendor/realme/r5x/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/realme/r5x/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml \
@@ -408,16 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/lib/libDxHdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDxHdcp.so \
     vendor/realme/r5x/proprietary/vendor/lib/libOPPORectify.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOPPORectify.so \
     vendor/realme/r5x/proprietary/vendor/lib/libOccluDetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOccluDetect.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/realme/r5x/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/realme/r5x/proprietary/vendor/lib/libOppoAPSMemMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOppoAPSMemMgr.so \
     vendor/realme/r5x/proprietary/vendor/lib/libOppoAlgoClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOppoAlgoClient.so \
@@ -2221,7 +2210,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/realme/r5x/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/realme/r5x/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
-    vendor/realme/r5x/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/realme/r5x/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/realme/r5x/proprietary/vendor/lib64/libOppoAPSMemMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoAPSMemMgr.so \
     vendor/realme/r5x/proprietary/vendor/lib64/libOppoAlgoClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoAlgoClient.so \
