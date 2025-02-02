@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libalgo.public \
     libalipay_factory \
     libarcsoft_hdr_denoise_api \
     libarcsoft_high_dynamic_range \
@@ -332,6 +333,8 @@ PRODUCT_PACKAGES += \
     libaudioparsers \
     libbase64 \
     libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
+    libbtnv \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
@@ -359,9 +362,12 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc2 \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
+    libmpbase \
     liboppo_log_print \
     liboppoalgolib \
+    libperipheral_client \
     libpvr \
+    libqcbor \
     libqcci_legacy \
     libqcodec2 \
     libqdi \
@@ -379,6 +385,7 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
+    libsnsdiaglog \
     libsoc_helper \
     libsoc_helper_jni \
     libssc \
@@ -437,7 +444,6 @@ PRODUCT_PACKAGES += \
     libactuator_s5kgm1_fp5516we2_2nd \
     libadm \
     libadpcmdec \
-    libalgo.public \
     libarc_sensor_adapter \
     libarcsoft_beautyshot \
     libarcsoft_beautyshot_lite_image \
@@ -456,6 +462,7 @@ PRODUCT_PACKAGES += \
     libarcvs \
     libavutil \
     libblur_channel \
+    libc++_shared \
     libcamera_core_hwi \
     libcapiv2svacnn \
     libcapiv2vop \
@@ -1835,6 +1842,7 @@ PRODUCT_PACKAGES += \
     libjpegehw \
     liblistensoundmodel2 \
     libmegface \
+    libml_util \
     libmm-qcamera \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
@@ -2015,7 +2023,6 @@ PRODUCT_PACKAGES += \
     libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
-    libmpbase \
     libnnp \
     libocam_common \
     libois_bu63165 \
@@ -2082,7 +2089,6 @@ PRODUCT_PACKAGES += \
     libStDrvInt \
     libaoa \
     libbt-hidlclient \
-    libbtnv \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
@@ -2132,9 +2138,7 @@ PRODUCT_PACKAGES += \
     libops \
     libpdmapper \
     libpdnotifier \
-    libperipheral_client \
     libpn553_fw \
-    libqcbor \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
@@ -2176,7 +2180,6 @@ PRODUCT_PACKAGES += \
     libslimclient \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
-    libsnsdiaglog \
     libspl \
     libssd \
     libsystem_health_mon \
