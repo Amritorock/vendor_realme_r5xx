@@ -454,6 +454,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_videostabilizer \
     libarcvs.dep \
     libarcvs \
+    libavutil \
     libblur_channel \
     libcamera_core_hwi \
     libcapiv2svacnn \
